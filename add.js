@@ -31,7 +31,7 @@ document.getElementById("form-add").addEventListener("submit", (e) => {
       type,
     })
     .then(() => {
-      location.replace("./index.html");
       alert("Them thanh cong");
+      window.location.replace("./index.html");
     });
 });

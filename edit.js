@@ -40,6 +40,6 @@ document.getElementById("form-edit").addEventListener("submit", (e) => {
 
   axios.put(`http://localhost:3000/pitches/${id}`, data).then(() => {
     alert("Cập nhật thành công");
-    location.replace("./index.html");
+    window.location.replace("./index.html");
   });
 });

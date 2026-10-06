@@ -65,11 +65,11 @@
   ],
   "pitches": [
     {
-      "id": "1",
       "name": "Sân bóng số 01",
-      "price": 200000,
+      "price": "200000",
       "location": "Hà Đông",
-      "type": "Sân 5"
+      "type": "Sân 5",
+      "id": "1"
     },
     {
       "id": "2",
@@ -86,11 +86,11 @@
       "id": "3"
     },
     {
-      "name": "Sân bóng số 05",
+      "name": "Sân bóng số 07",
       "price": "150000",
       "location": "Nhổn",
       "type": "Sân 7",
-      "id": "U3uDbyd"
+      "id": "4"
     }
   ]
 }
